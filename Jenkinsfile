@@ -1,6 +1,7 @@
 @Library('roboshop') _
 
-//env.component="catalogue"
-//env.app_lang = "nodejs"
+env.component="shipping"
+env.app_lang = "maven"
+env.sonar_extra_opts = "-Dsonar.java.binaries=./target"
 
 ci()
